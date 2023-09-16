@@ -5,6 +5,7 @@ Florist Website aimed at promoting florist flowers packages for residents.
 
 - HTML
 - CSS
+- JavaScript
 
 ## Features
 
