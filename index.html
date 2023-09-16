@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body>
+    <nav class="nav__container">
+        <div class="logo">e-florist</div>
+            <ul class="nav__links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav__humburger-menu">
+        <div class="logo">e-florist</div>
+        <div class="nav__hum-menu">
+            <div class="nav__hum-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hum-menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                    <li><a href="#packages" onclick="toggleMenu()">Packages</a></li>
+                    <li><a href="contacts" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/lily.jpg" alt="">
+        </div>
+    </section>
+    <section id="about"> 
+        <h5 class="title">About us</h5><br>
+        <div class="section-container">
+                <div class="text-container">
+                    <div class="logo">e-florist</div>
+                    <p>Started operating in 2020</p><br>
+                    <p>We take great pride in sourcing the finest flowers from local growers and around the world, ensuring that every bloom we use is of the highest quality. Our florists possess an artist's touch, skillfully combining textures, shapes, and hues to create arrangements that are both visually stunning and emotionally resonant.</p><br>
+                    <p>At our florist shop, it's not just about selling flowers; it's about creating moments of joy, comfort, and celebration through the language of flowers. We believe that flowers have the power to convey emotions and sentiments that words often cannot. Whether you're celebrating love, expressing sympathy, or simply adding a touch of nature to your life, our florist shop is here to be your trusted partner.</p><br>
+                    <p>Our commitment to excellence, passion for floral artistry, and dedication to customer satisfaction make our florist shop the ultimate destination for all your floral desires.</p>
+                </div> 
+                </div>              
+            </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#Experience'"></i>
+    </section>
+    <section id="packages">
+        <p class="section__text__p1">Check out our different flower packages!</p><br>
+        <div class="package-details-container">
+            <div class="article-container">
+                        <article>
+                            <h3>Lilies</h3>
+                            <img src="./assets/lily.jpg" alt="" id="pack-img">
+                        </article>
+                        <article>
+                            <h3>Daisies </h3>
+                            <img src="./assets/daisies.jpg" alt="" id="pack-img"> 
+                        </article>
+                    </div>
+                </div>
+                    <div class="article-container">
+                        <article>
+                            <h3>Dafodils</h3>
+                            <img src="./assets/dafodil.jpg" alt="" id="pack-img">
+                        </article>
+                        <article>
+                            <h3>Petunia</h3>
+                            <img src="./assets/petunia.jpg" alt="" id="pack-img">
+                        </article>
+                        <article>
+                            <h3>Daisies</h3>
+                            <img src="./assets/roses.jpg" alt="" id="pack-img">
+                        </article>
+                        <article>
+                            <h3>Roses</h3>
+                            <img src="./assets/sunflower.jpg" alt="" id="pack-img">
+                        </article>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#projects'"></i>
+    </section>  
+    <section id="contacts">
+        <p class="section__text__p1">Get in touch</p><br>
+        <h1 class="title">Contact us</h1><br>
+        <img src="/assets/lily.jpg" alt=""><br>
+        <p>Kisten Street,<br>101 Park,<br>CBD</p>
+        <div id="icons">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-whatsapp"></i>
+            <i class="uil uil-phone"></i>
+        </div>
+        
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                    <ul class="nav__links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="copyright">
+        <p>Copyright&copy;2023. Tshenolo Kabikwa. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
